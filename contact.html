@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile Website</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <h2><a href="index.html" class="logo">JF</a></h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="myskills.html">My Skills</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- <a href="#" class="btn">Click Me</a> -->
+      </nav>
+
+      <section id="contact">
+        <h1 class="text-contact">Contact Me</h1>
+        <div class="posisi">
+                    <div class = "maps">
+                        <div id="embedmap-canvas">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <!-- <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap"></a> -->
+                    </div>
+
+                    <!-- form fields -->
+          <div class="form-field">
+            <form>
+              <input type="text" class="form-text" placeholder="Name">
+              <input type="email" class="form-text" placeholder="Email">
+              <input type="text" class="form-text" placeholder="Subject">
+              <div class="form-message">
+                <textarea class="form-message" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+              </div>
+          </form>
+              <button type="button" class="btn">Contact Me</button>
+        </div>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.service {
+  background: #eaebe2;
+  width: 100%;
+  padding: 50px 0px;
+}
+.title h2 {
+  color: #fd4766;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: white;
+  border-radius: 20px;
+  margin: 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card h5 {
+  background-color: white;
+}
+h5 {
+  color: black;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+/* ABOUT ME */
+#about-me {
+  /* background-color: #f7f7f7; */
+  background: #eaebe2;
+  width: 100%;
+  padding: 50px 0px;
+}
+.title-about {
+  color: #fd4766;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.isi-about {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1c99fe;
+
+
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+.title-about {
+  color: #fd4766;
+  font-size: 46px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
